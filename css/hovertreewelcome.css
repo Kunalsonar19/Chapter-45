@@ -235,3 +235,31 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 100px; /* Adjusted font size for tablets */
+  }
+
+  h2 {
+    font-size: 30px; /* Adjusted font size for tablets */
+  }
+
+  h3 {
+    font-size: 25px; /* Adjusted font size for tablets */
+  }
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 120px; /* Further adjusted font size for mobile */
+  }
+
+  h2 {
+    font-size: 40px; /* Further adjusted font size for mobile */
+  }
+
+  h3 {
+    font-size: 35px; /* Further adjusted font size for mobile */
+  }
+}
